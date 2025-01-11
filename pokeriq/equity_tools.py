@@ -1,5 +1,5 @@
 from Card import Card
-from Hand import Hand
+from .made_hand import Hand
 from Deck import Deck
 from .player import Player
 from .runout_simulation import Simulation
