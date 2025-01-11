@@ -18,14 +18,16 @@ _No Limit Hold'Em is the most popular variant of poker, allowing for uncapped be
 Generate a few ranges and a custom board if desiredwith the functionality provided by the `Card` class/
 ```python
   myRange = [Card.generateSet(('9s', '9h'))]
-  standardThreeBet = EquitySolver.generateRange(['AA', 'KK', 'QQ', 'AKs', 'AKo', 'JJ', 'TT', '99',
-                                            'AQs', 'AQo', 'AJs', 'AJo', 'ATs', 'ATo', 'KQs', 'KQo'])
+  standardThreeBet = EquitySolver.generateRange(['AA', 'KK', 'QQ', 'AKs', 'AKo', 'JJ',
+                                                'TT', '99', 'AQs', 'AQo', 'AJs', 'AJo',
+                                                 'ATs', 'ATo', 'KQs', 'KQo'])
   board = Card.generateSet(('Ah', '9c', '5c'))
 ```
 
 Initialize an `EquitySolver` and input the ranges and board to approximate equity.
 ```python
-  equities, message = EquitySolver.calculateRangeEquity(myRange, standardThreeBet, trials=10000, customBoard=board)
+  equities, message = EquitySolver.calculateRangeEquity(myRange, standardThreeBet,
+                                                        trials=10000, customBoard=board)
   print(message)
   >>> ____________________
   >>> BoardCards:
