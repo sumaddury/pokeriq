@@ -1,7 +1,7 @@
 from Card import Card
 from Hand import Hand
 from Deck import Deck
-from Player import Player
+from .player import Player
 from .runout_simulation import Simulation
 from typing import Self
 import copy
