@@ -41,7 +41,7 @@ Initialize an `EquitySolver` and input the ranges and board to approximate equit
   ____________________
 ```
 
-For more detailed instruction on how to use the library, refer to the short tutorial notebook.
+For more detailed instruction on how to use the library, refer to the short example notebook.
 ---
 ## Setup
 Install via `pip`:
