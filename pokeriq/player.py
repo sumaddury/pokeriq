@@ -21,7 +21,6 @@ class Player:
         self.name = name
         self.stack = chipStack
         self.hole = []
-        self.range = []
         self.currentBet = 0
         
     def bet(self, amount: int | float) -> None:
