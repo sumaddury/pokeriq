@@ -43,6 +43,22 @@ Initialize an `EquitySolver` and input the ranges and board to approximate equit
 
 For more detailed instruction on how to use the library, refer to the short tutorial notebook, or launch in browser via Deepnote.
 ***
-## Installation
+## Setup
+Install via pip:
+```bash
+  pip install git+https://github.com/sumaddury/pokeriq.git
+```
+Or install from source:
+```bash
+  git clone https://github.com/sumaddury/pokeriq.git
+  cd pokeriq
+  pip install .
+```
+Finally, import the required classes!
+```python
+  from pokeriq import Card, Hand, Deck, Player, Simulation, EquitySolver
+```
+***
+
 
 
