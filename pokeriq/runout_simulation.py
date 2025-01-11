@@ -1,7 +1,7 @@
 from Card import Card
 from .made_hand import Hand
 from .player import Player
-from Deck import Deck
+from .deck import Deck
 from typing import Self
 
 # runout_simulation.py
