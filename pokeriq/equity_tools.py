@@ -216,7 +216,7 @@ class EquitySolver:
         :param range: An iterable of strings representing the hand range (e.g., ["AKs", "AKo"]).
         :return: A list of all possible combinations of hands based on the specified range.
         """
-        assert isinstance(range, list) and all(isinstance(hand, str) for hand in range), "INPUT RANGE IS NOT A LIST OF STRINGS."
+        assert isinstance(range, Iterable) and all(isinstance(hand, str) for hand in range), "INPUT RANGE IS NOT AN ITERABLE OF STRINGS."
         assert all((len(hand) == 3 and hand[2] in {'s', 'o'}) or (len(hand) == 2 and hand[0] == hand[1]) for hand in range), "ONE OR MORE HANDS IS OF INVALID FORMAT."
         assert all(hand[0] in list(Card.ranks.values()) and hand[1] in list(Card.ranks.values()) for hand in range), "ONE OR MORE HANDS IS OF INVALID FORMAT."
 
