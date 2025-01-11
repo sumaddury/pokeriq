@@ -1,6 +1,6 @@
 from Card import Card
 from .made_hand import Hand
-from Deck import Deck
+from .deck import Deck
 from .player import Player
 from .runout_simulation import Simulation
 from itertools import product, combinations, permutations
