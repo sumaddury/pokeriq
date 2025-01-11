@@ -3,9 +3,9 @@ from Hand import Hand
 from Deck import Deck
 from .player import Player
 from .runout_simulation import Simulation
+from itertools import product, combinations, permutations
 from typing import Self
 import copy
-from itertools import product, combinations, permutations
 import builtins
 
 # equity_tools.py
