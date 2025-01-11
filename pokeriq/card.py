@@ -1,6 +1,6 @@
 from typing import Self, Iterable
 
-# Card.py
+# card.py
 # This file contains a class for representing a playing card with a suit and rank.
 # It provides methods for comparing cards, converting cards to strings, and generating sets of cards.
 
