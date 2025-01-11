@@ -1,6 +1,4 @@
 # PokerIQ ♠♥♦♣
-![License](https://img.shields.io/badge/license-Apache%202.0-blue)
-![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ___
 A micro-library intended for studying [No Limit Texas Hold'Em (NLH)](https://thelodgepokerclub.com/no-limit-texas-holdem-rules-beginners-guide/), written in pure Python. 
 
