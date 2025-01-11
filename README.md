@@ -68,7 +68,7 @@ Finally, import the required classes!
 ---
 ## Repo Structure
 Top:
-1. `tutorial.ipynb`: Short tutorial for PokerIQ functionality.
+1. `example.ipynb`: Short tutorial for PokerIQ functionality.
 2. `tests.ipynb`: Few tests to ensure sanity and stability.
    
 In `pokeriq` directory:
