@@ -1,4 +1,4 @@
-from Card import Card
+from .card import Card
 from .made_hand import Hand
 from .player import Player
 from .deck import Deck
