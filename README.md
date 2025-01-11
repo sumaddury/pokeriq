@@ -15,7 +15,7 @@ _No Limit Hold'Em is the most popular variant of poker, allowing for uncapped be
 5. `Simulation`: Encapsulates all information about a given trial, running the board out, assessing winners, etc.
 6. `EquitySolver`: The main equity calculation mechanism. Hand and range equity calculation functionality.
 
-Generate a few ranges and a custom board if desiredwith the functionality provided by the `Card` class.
+Generate a few ranges and a custom board if desired with the utilities provided by the `Card` class.
 ```python
   myRange = [Card.generateSet(('9s', '9h'))]
   standardThreeBet = EquitySolver.generateRange(['AA', 'KK', 'QQ', 'AKs', 'AKo', 'JJ',
