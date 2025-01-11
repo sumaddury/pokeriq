@@ -29,6 +29,8 @@ Initialize an `EquitySolver` and input the ranges and board to approximate equit
   equities, message = EquitySolver.calculateRangeEquity(myRange, standardThreeBet,
                                                         trials=10000, customBoard=board)
   print(message)
+```
+```
   >>> ____________________
   >>> BoardCards:
   >>>  ♥A ♣9 ♣5
