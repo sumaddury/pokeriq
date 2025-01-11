@@ -8,7 +8,7 @@ import copy
 from itertools import product, combinations, permutations
 import builtins
 
-# EquitySolver.py
+# equity_tools.py
 # This file contains a class which calculates the hand equity for players
 # in a poker game. The class handles player setup, deck definition, and simulating hands
 # to determine equity percentages based on a given board state and players' hole cards.
