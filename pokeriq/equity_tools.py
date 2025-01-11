@@ -4,7 +4,7 @@ from .deck import Deck
 from .player import Player
 from .runout_simulation import Simulation
 from itertools import product, combinations, permutations
-from typing import Self
+from typing import Self, Iterable
 import copy
 import builtins
 
@@ -209,11 +209,11 @@ class EquitySolver:
         return(message)
     
     @staticmethod
-    def generateRange(range: list[str]) ->  list[list[Self]]:
+    def generateRange(range: Iterable[str]) ->  list[list[Self]]:
         """
         Generates all possible hands from a given hand range.
 
-        :param range: A list of strings representing the hand range (e.g., ["AsKs", "AcKc"]).
+        :param range: An iterable of strings representing the hand range (e.g., ["AKs", "AKo"]).
         :return: A list of all possible combinations of hands based on the specified range.
         """
         assert isinstance(range, list) and all(isinstance(hand, str) for hand in range), "INPUT RANGE IS NOT A LIST OF STRINGS."
