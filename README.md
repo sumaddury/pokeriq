@@ -31,14 +31,14 @@ Initialize an `EquitySolver` and input the ranges and board to approximate equit
   print(message)
 ```
 ```
-  >>> ____________________
-  >>> BoardCards:
-  >>>  ♥A ♣9 ♣5
-  >>> ____________________
-  >>> Range 1 | 84.11034482757842%
-  >>> Range 2 | 10.833620689654694%
-  >>> CHOP | 5.0560344827581485%
-  >>> ____________________
+  ____________________
+  BoardCards:
+  ♥A ♣9 ♣5
+  ____________________
+  Range 1 | 84.11034482757842%
+  Range 2 | 10.833620689654694%
+  CHOP | 5.0560344827581485%
+  ____________________
 ```
 
 For more detailed instruction on how to use the library, refer to the short tutorial notebook, or launch in browser via Deepnote.
