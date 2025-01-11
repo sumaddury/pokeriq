@@ -1,5 +1,5 @@
 from Card import Card
-from Hand import Hand
+from .made_hand import Hand
 from typing import Self
 
 # player.py
