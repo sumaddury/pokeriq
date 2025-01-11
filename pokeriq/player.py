@@ -2,7 +2,7 @@ from Card import Card
 from Hand import Hand
 from typing import Self
 
-# Player.py
+# player.py
 # This file contains a class for representing a poker player.
 # It handles player actions, such as placing bets, updating their chip stack, 
 # assigning hole cards, identifying the player's hand, and determining the winner among a list of players.
