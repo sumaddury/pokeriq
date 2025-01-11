@@ -6,7 +6,7 @@ setup(
     name='pokeriq', 
     version='0.1.0',      
     packages=find_packages(),  
-    install_requires=[python>=3.7],     
+    install_requires=[],     
     description='A Micro-Library for Holdem Simulation',  
     python_requires='>=3.7',  
     url='https://github.com/sumaddury/pokeriq',
