@@ -3,7 +3,7 @@ from typing import Self
 import random
 import copy
 
-# Deck.py
+# deck.py
 # This file contains a class representing a deck of playing cards.
 # It provides methods for shuffling, drawing, adding/removing cards, and dealing cards for poker games.
 
