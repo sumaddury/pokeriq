@@ -4,7 +4,7 @@ from Player import Player
 from Deck import Deck
 from typing import Self
 
-# Simulation.py
+# runout_simulation.py
 # This file contains a class for running a poker hand simulation.
 # It handles the dealing of cards, assigning hands to players, 
 # and determining the winners based on the community cards (flop, turn, river).
