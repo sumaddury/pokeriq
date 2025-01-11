@@ -1,5 +1,5 @@
-from typing import Self
 from Card import Card
+from typing import Self
 
 # made_hand.py
 # This file contains a class for evaluating poker hands and determining the best hand ranking.
