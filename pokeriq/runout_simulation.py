@@ -1,6 +1,6 @@
 from Card import Card
 from Hand import Hand
-from Player import Player
+from .player import Player
 from Deck import Deck
 from typing import Self
 
