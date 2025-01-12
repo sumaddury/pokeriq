@@ -7,9 +7,9 @@ ___
 ## Overview
 _No Limit Hold'Em is the most popular variant of poker, allowing for uncapped betting across multiple streets which creates a more complex layer of strategy. The goal of this package is to provide the basic tools needed to understand NLH inductively. It includes six main classes that allow for custom simulation and [equity](https://upswingpoker.com/equity/) calculation:_
 1. `Card`: Provides functionality for individual cards, including several generation mechanisms.
-2. `Hand`: Performs made hand strength calculations and comparison
+2. `Hand`: Performs made hand strength calculations and comparison.
 3. `Player`: Encapsulates information about individual players (stack, hole, made hand, etc.).
-4. `Deck`: Provides functionality for a deck (burn, draw, deal, shuffle, etc.)
+4. `Deck`: Provides functionality for a deck (burn, draw, deal, shuffle, etc.).
 5. `Simulation`: Encapsulates all information about a given trial, running the board out, assessing winners, etc.
 6. `EquitySolver`: The main equity calculation mechanism. Hand and range equity calculation functionality.
 
