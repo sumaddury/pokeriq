@@ -39,7 +39,7 @@ Initialize an `EquitySolver` and input the ranges and board to approximate equit
   ____________________
 ```
 
-For more detailed instruction on how to use the library, refer to the short example notebook.
+For more detailed instruction on how to use the library, refer to the [short tutorial notebook](https://github.com/sumaddury/pokeriq/blob/main/tutorial.ipynb).
 ___
 ## Setup
 Install via `pip`:
@@ -66,7 +66,7 @@ ___
 ___
 ## Repo Structure
 Top:
-1. `example.ipynb`: Short tutorial for PokerIQ functionality.
+1. [`tutorial.ipynb`](https://github.com/sumaddury/pokeriq/blob/main/tutorial.ipynb): Short tutorial for PokerIQ functionality.
 2. `tests.ipynb`: Few tests to ensure sanity and stability.
    
 In `pokeriq` directory:
