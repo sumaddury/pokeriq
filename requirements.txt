@@ -1,2 +1,0 @@
-# requirements.txt
-python>=3.7
