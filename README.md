@@ -68,8 +68,8 @@ ___
 ___
 ## Repo Structure
 Top:
-1. [`tutorial.ipynb`](https://github.com/sumaddury/pokeriq/blob/main/tutorial.ipynb): Short tutorial for PokerIQ functionality.
-2. [`tests.ipynb`](https://github.com/sumaddury/pokeriq/blob/main/tests.ipynb): Few tests to ensure sanity and stability. Credits to PokerAI for solver references.
+1. [`tutorial.ipynb`](https://github.com/sumaddury/pokeriq/blob/main/tutorial.ipynb): Short tutorial for PokerIQ functionality. *NOT UPDATED FOR RECENT FEATURES.
+2. [`tests.ipynb`](https://github.com/sumaddury/pokeriq/blob/main/tests.ipynb): Few tests to ensure sanity and stability. Credits to PokerAI for solver references. *NOT UPDATED FOR RECENT FEATURES.
    
 In `pokeriq` directory:
 1. [`card.py`](https://github.com/sumaddury/pokeriq/blob/main/pokeriq/card.py): Contains `Card` class functionality.
