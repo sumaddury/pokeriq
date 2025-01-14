@@ -347,9 +347,9 @@ class EquitySolver:
         assert isinstance(potPrcnt, float) and potPrcnt >= 0, "POT PERCENT INPUT IS NOT A POSITIVE FLOAT."
         assert isinstance(pc, int) and pc >= 2, "PLAYER COUNT IS NOT AN INTEGER OF VALUE AT LEAST 2."
 
-        if evFunc(showEq, potPrcnt, 0, pc) >= 0:
-            return(0)
-        foldEq = root_scalar(lambda F: evFunc(showEq, potPrcnt, F, pc), bracket=[0, 0.9999], method='brentq')
+        if evFunc(showEq, potPrcnt, 0.0, pc) >= 0:
+            return(0.0)
+        foldEq = root_scalar(lambda F: evFunc(showEq, potPrcnt, F, pc), bracket=[0.0, 0.9999], method='brentq')
 
         return(foldEq.root)
         
