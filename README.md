@@ -11,7 +11,7 @@ _No Limit Hold'Em is the most popular variant of poker, allowing for uncapped be
 3. `Player`: Encapsulates information about individual players (stack, hole, made hand, etc.).
 4. `Deck`: Provides functionality for a deck (burn, draw, deal, shuffle, etc.).
 5. `Simulation`: Encapsulates all information about a given trial, running the board out, assessing winners, etc.
-6. `EquitySolver`: The main equity calculation mechanism. Hand and range equity calculation functionality.
+6. `EquitySolver`: The main equity calculation mechanism. Hand and range equity, EV, fold equity calculation.
 
 Generate a few ranges and a custom board if desired with the utilities provided by the `Card` class.
 ```python
