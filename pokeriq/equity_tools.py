@@ -1,8 +1,8 @@
-from card import Card
-from made_hand import Hand
-from deck import Deck
-from player import Player
-from runout_simulation import Simulation
+from .card import Card
+from .made_hand import Hand
+from .deck import Deck
+from .player import Player
+from .runout_simulation import Simulation
 from itertools import product, combinations, permutations
 from typing import Self, Iterable, Callable
 from scipy.optimize import root_scalar
